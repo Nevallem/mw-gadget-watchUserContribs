@@ -1,0 +1,70 @@
+﻿#wuc-openDialog {
+	margin-top: 3px;
+	padding: 3px 52px;
+}
+
+#wuc-notification {
+	border-radius: 2px;
+	color: #FFF;
+	cursor: default;
+	margin-left: 3px;
+	padding: 6px 6px 6px 5px;
+	vertical-align: text-top;
+}
+
+#wuc-notification-verifying {
+	font-size: smaller;
+}
+
+#wuc-import-textarea,
+#wuc-export-textarea {
+	height: 200px;
+	width: 480px;
+}
+
+#wuc-import,
+#wuc-export {
+	display: none;
+}
+
+#wuc-import-save {
+	float: right;
+}
+
+.wuc-newContrib-early {
+	background-color: yellow;
+}
+
+.wuc-newContrib-late, .wuc-notification-none {
+	background-color: #DCDAD6;
+	color: #736D62 !important;
+}
+
+.wuc-haveNotify {
+	background-color: #B60000 !important;
+}
+
+.wuc-dialog-default .ui-dialog-titlebar-close {
+	display: inline !important;
+}
+
+.wuc-buttons {
+	background: #C0C0C0;
+        border: 0px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.wuc-fillField {
+	border: 1px solid red;
+}
+
+.wuc-import-what {
+	cursor: default;
+}
+
+label[for="wuc-import-append"] {
+	position: absolute;
+        top: 345px;
+        right: 80px;
+}
